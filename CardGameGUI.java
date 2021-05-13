@@ -312,7 +312,7 @@ public class CardGameGUI extends JFrame implements ActionListener {
         }
         
         String suits = "cdhs";
-        String ranks = "234567890jkqa";
+        String ranks = "234567890jqka";
         
         int suitNum = suits.indexOf(card.suit().substring(0, 1));
         String rank;
